@@ -42,3 +42,7 @@ window.addEventListener('load', async () => {
 
     displayWorkshops(workshops);
 });
+
+addParticipantBtn.addEventListener('click', () => {
+    window.location.href = '../create/index.html';
+});

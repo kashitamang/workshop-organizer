@@ -73,5 +73,19 @@ TO DO
     ✅ call getWorkshops in workshops on load 
     ✅ * validate in console that you grabbed all the workshop data
 
--write renderworkShop() and TDD
+✅ write renderworkShop() and TDD
+✅ write displayWorkshops() and call renderWorkshop within
+✅ add event listener to participant li to listen for clicks and call deleteParticipants inside
+✅ *validate workshops render to page visually
+
+set up create folder with index, and js files
+-connect appropriate networks
+-* validate authorization and redirect
+-setup form
+
+
+
+
+-write deleteParticipant function 
+- *validate deletes participant off page and in supabase
 
