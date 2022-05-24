@@ -62,4 +62,10 @@ TO DO
     ✅ enable rls 
     ✅ add authentification policy
     ✅ add foreign keys for uuid and workshop id
--crate client in fetch utils 
+    -create client in fetch utils 
+    -add script tags to html heads 
+-setup workshops folder with index, and js files
+    -connect appropriate networks
+     *VALIDATE redirectIfLoggedIn()
+    -async function getWorkshops()
+
