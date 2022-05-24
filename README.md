@@ -81,15 +81,14 @@ TO DO
 ✅ set up create folder with index, and js files
 ✅ connect appropriate networks
 ✅ * validate authorization and redirect
--setup form
--add styling
--write onLoad() to load workshops to the selector dropdown
--write participant form event listener for submit to add data to supabase
--write createParticipant()
+✅ setup form
+✅ add styling
+✅ write onLoad() to load workshops to the selector dropdown
+✅ write participant form event listener for submit to add data to supabase
+✅ write createParticipant()
+✅ validate supabse updates and rendering to page
+✅ write deleteParticipant() 
+-add event listener to each participant to delete them off page 
+*confirm deletion from supabase and page
 
-
-
-
--write deleteParticipant function 
-- *validate deletes participant off page and in supabase
 

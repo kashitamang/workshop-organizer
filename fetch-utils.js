@@ -24,6 +24,15 @@ export async function createParticipant(participant){
     return checkError(response);
 }
 
+export async function deleteParticipant(id){
+    const response = await client
+        .from('participants')
+        .delete()
+        .eq('id', id);
+    console.log(response);
+    return checkError(response);
+}
+
 export function checkAuth() {
     const user = getUser();
 

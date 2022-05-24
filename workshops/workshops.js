@@ -1,4 +1,4 @@
-import { checkAuth, logout, getWorkshops } from '../fetch-utils.js';
+import { checkAuth, logout, getWorkshops, deleteParticipant } from '../fetch-utils.js';
 import { renderWorkshop, renderOption } from '../render-utils.js';
 checkAuth();
 
@@ -14,7 +14,7 @@ logoutButton.addEventListener('click', () => {
 
 async function displayWorkshops(){
     //clear out the Dom on refresh
-    //workshopsContainer.textContent = '';
+    workshopsContainer.textContent = '';
     //grab data from supabase
     const data = await getWorkshops();
     //call render on element
