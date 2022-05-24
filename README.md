@@ -62,10 +62,14 @@ TO DO
     ✅ enable rls 
     ✅ add authentification policy
     ✅ add foreign keys for uuid and workshop id
-    -create client in fetch utils 
-    -add script tags to html heads 
--setup workshops folder with index, and js files
-    -connect appropriate networks
-     *VALIDATE redirectIfLoggedIn()
-    -async function getWorkshops()
+    ✅ create client in fetch utils 
+    ✅ add script tags to html heads 
+✅ setup workshops folder with index, and js files
+    ✅ connect appropriate networks
+    ✅  *VALIDATE redirectIfLoggedIn()
+    ✅ set up workshops container 
+    ✅ set up add a participant button
+    ✅ assign function getWorkshops() in fetch
+    ✅ call getWorkshops in workshops on load 
+    ✅ * validate in console that you grabbed all the workshop data
 

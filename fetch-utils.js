@@ -7,6 +7,15 @@ export function getUser() {
     return client.auth.session() && client.auth.session().user;
 }
 
+export async function getWorkshops() {
+    //fetch all workshops and their participants
+    const response = await client
+        .from('workshops')
+        .select('*, participants(*)');
+    console.log(response);
+    return checkError(response);
+}
+
 export function checkAuth() {
     const user = getUser();
 
@@ -37,6 +46,6 @@ export async function logout() {
     return (window.location.href = '../');
 }
 
-// function checkError({ data, error }) {
-//     return error ? console.error(error) : data;
-// }
+function checkError({ data, error }) {
+    return error ? console.error(error) : data;
+}
