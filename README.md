@@ -88,7 +88,7 @@ TO DO
 ✅ write createParticipant()
 ✅ validate supabse updates and rendering to page
 ✅ write deleteParticipant() 
--add event listener to each participant to delete them off page 
-*confirm deletion from supabase and page
+✅ add event listener to each participant to delete them off page 
+✅ confirm deletion from supabase and page
 
 
