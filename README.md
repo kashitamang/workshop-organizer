@@ -73,3 +73,5 @@ TO DO
     ✅ call getWorkshops in workshops on load 
     ✅ * validate in console that you grabbed all the workshop data
 
+-write renderworkShop() and TDD
+

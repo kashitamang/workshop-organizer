@@ -1,10 +1,10 @@
 import { checkAuth, logout, getWorkshops } from '../fetch-utils.js';
-
+import { renderWorkshop, renderOption } from '../render-utils.js';
 checkAuth();
 
 const logoutButton = document.getElementById('logout');
 const addParticipantBtn = document.getElementById('add-participant-button');
-const workshopsEl = document.querySelector('.workshops-container');
+const workshopsContainer = document.querySelector('.workshops-container');
 
 //console.log(workshopsEl);
 
