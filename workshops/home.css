@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 20px;
 }
 
 .workshop {
@@ -9,4 +10,6 @@
     border: 2px solid black;
     display: flex;
     flex-direction: column;
-    align-items: center;}
+    align-items: center;
+    padding-bottom: 20px;
+}
