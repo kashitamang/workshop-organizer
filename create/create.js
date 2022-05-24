@@ -4,7 +4,6 @@ import { renderOption } from '../render-utils.js';
 checkAuth();
 
 const logoutButton = document.getElementById('logout');
-git a
 
 //console.log(workshopsContainer);
 

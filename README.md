@@ -78,10 +78,11 @@ TO DO
 ✅ add event listener to participant li to listen for clicks and call deleteParticipants inside
 ✅ *validate workshops render to page visually
 
-set up create folder with index, and js files
--connect appropriate networks
--* validate authorization and redirect
+✅ set up create folder with index, and js files
+✅ connect appropriate networks
+✅ * validate authorization and redirect
 -setup form
+-add styling
 
 
 
