@@ -16,3 +16,4 @@ export function renderOption(workshop) {
     option.textContent = workshop.name;
     return option;
 }
+

@@ -83,6 +83,9 @@ TO DO
 ✅ * validate authorization and redirect
 -setup form
 -add styling
+-write onLoad() to load workshops to the selector dropdown
+-write participant form event listener for submit to add data to supabase
+-write createParticipant()
 
 
 
